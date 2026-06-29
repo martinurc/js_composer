@@ -1,3 +1,5 @@
+29.06.2026 Martin Fasani tries to fork this so it works with PHP 8.1
+
 27.06.2018 - ver 5.5.1
    - Fix: "WPBMap Uncaught Exception" for modifyParam API method
 
