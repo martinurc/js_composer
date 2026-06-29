@@ -30,6 +30,7 @@ if ( ! defined( 'WPB_VC_VERSION' ) ) {
  * @package WPBakeryVisualComposer
  * @since   4.2
  */
+#[AllowDynamicProperties]
 class Vc_Manager {
 	/**
 	 * Set status/mode for VC.
@@ -218,7 +219,7 @@ class Vc_Manager {
 	/**
 	 * prevent from being unserialized (which would create a second instance of it)
 	 */
-	private function __wakeup() {
+	public function __wakeup() {
 	}
 
 	/**
